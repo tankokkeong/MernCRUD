@@ -18,26 +18,26 @@ const Navigation = () => (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <NavLink exact activeClassName="current" to='/' className="navbar-brand">EasySurvey</NavLink>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
 
         </ul>
-        <div class="form-inline my-2 my-lg-0">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item">
+        <div className="form-inline my-2 my-lg-0">
+        <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li className="nav-item">
             <NavLink exact activeClassName="active" to='/' className="nav-link">Home</NavLink>
           </li>
-          <li class="nav-item">
+          <li className="nav-item">
             <NavLink exact activeClassName="active" to='/contact' className="nav-link">Contact</NavLink>
           </li>
-          <li class="nav-item">
+          <li className="nav-item">
             <NavLink exact activeClassName="active" to='/about' className="nav-link">About</NavLink>
           </li>
-          <li class="nav-item">
+          <li className="nav-item">
             <NavLink exact activeClassName="active" to='/login' className="nav-link">Login</NavLink>
           </li>
         </ul>
