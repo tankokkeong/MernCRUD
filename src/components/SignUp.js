@@ -1,15 +1,15 @@
 import React from "react";
 import '../style/login.css';
 
-const Login = () => (
+const SignUp = () => (
     <div id="login">
         <div className="container">
             <div className="login-box">
-                <h3 className="text-center text-dark">Login</h3>
+                <h3 className="text-center text-dark">Sign Up</h3>
 
                 <div className="form-group">
                     <label htmlFor="username" className="text-dark">Email:</label><br/>
-                    <input type="text" name="username" id="username" className="form-control"/>
+                    <input type="text" name="email" id="username" className="form-control"/>
                 </div>
 
                 <div className="form-group">
@@ -18,14 +18,18 @@ const Login = () => (
                 </div>
 
                 <div className="form-group">
-                    <label htmlFor="remember-me" className="text-dark"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox" /></span></label><br/>
+                    <label htmlFor="password" className="text-dark">Confirm Password:</label><br/>
+                    <input type="password" name="password" id="password" className="form-control"/>
+                </div>
+
+                <div className="form-group">
                     <div className="text-center">
-                        <input type="submit" name="submit" className="btn btn-info btn-md" value="Login"/>
+                        <input type="submit" name="submit" className="btn btn-info btn-md" value="Sign Up"/>
                     </div>
                 </div>
 
                 <div id="register-link" className="text-center">
-                    <a href="/signup" className="text-info">Not a member yet?</a>
+                    <a href="/login" className="text-info">Already a member?</a>
                 </div>
 
             </div>         
@@ -34,4 +38,4 @@ const Login = () => (
     </div>
 );
 
-export default Login;
+export default SignUp;
