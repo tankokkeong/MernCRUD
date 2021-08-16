@@ -8,7 +8,12 @@ const SignUp = () => (
                 <h3 className="text-center text-dark">Sign Up</h3>
 
                 <div className="form-group">
-                    <label htmlFor="username" className="text-dark">Email:</label><br/>
+                    <label htmlFor="email" className="text-dark">Email:</label><br/>
+                    <input type="text" name="email" id="username" className="form-control"/>
+                </div>
+
+                <div className="form-group">
+                    <label htmlFor="username" className="text-dark">Username:</label><br/>
                     <input type="text" name="email" id="username" className="form-control"/>
                 </div>
 
@@ -18,7 +23,7 @@ const SignUp = () => (
                 </div>
 
                 <div className="form-group">
-                    <label htmlFor="password" className="text-dark">Confirm Password:</label><br/>
+                    <label htmlFor="confirmPassword" className="text-dark">Confirm Password:</label><br/>
                     <input type="password" name="password" id="password" className="form-control"/>
                 </div>
 
